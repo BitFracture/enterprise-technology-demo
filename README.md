@@ -19,7 +19,29 @@ This project will...
 
 ## Capabilities
 
-This project features an API capable of... (to be continued)
+The capabilities of this project will be expanded upon through several implementation phases.
 
 ### Phase 1
+
+A basic summarization API with an LLM integration.
+
+ - Runnable Spring application (web service)
+ - API exists to accept text content
+ - Web service integrates with an LLM to summarize the text
+ - Text summary is returned to the API caller
+
+### Phase 2
+
+Containerization followed by persistence and retrieval of documents via API.
+
+ - Existing web service is containerized and launches to a container host
+ - A containerized database is added to the container network
+ - The web service communicates with the containerized database
+ - Summarized documents, their original content, and status are stored, retrievable, and can be enumerated via API
+
+### Phase 3
+
+To be detailed later
+
+
 
