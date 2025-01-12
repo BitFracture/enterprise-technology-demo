@@ -19,6 +19,31 @@
             <artifactId>junit-jupiter</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>ai.djl.llama</groupId>-->
+<!--            <artifactId>llama</artifactId>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>ai.djl</groupId>
+            <artifactId>api</artifactId>
+        </dependency>
+        <!-- TensorFlow -->
+<!--        <dependency>-->
+<!--            <groupId>ai.djl.tensorflow</groupId>-->
+<!--            <artifactId>tensorflow-model-zoo</artifactId>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>ai.djl</groupId>-->
+<!--            <artifactId>basicdataset</artifactId>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>ai.djl</groupId>
+            <artifactId>model-zoo</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

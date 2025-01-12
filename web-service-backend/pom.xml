@@ -33,17 +33,35 @@
             <!-- =========================================== -->
             <!-- ======== Compile-time Dependencies ======== -->
             <!-- =========================================== -->
-
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>1.18.30</version>
             </dependency>
 
+            <!-- Amazon wrapper for deep learning models (deep java library) -->
+            <!-- https://mvnrepository.com/artifact/ai.djl/api -->
+            <dependency>
+                <groupId>ai.djl</groupId>
+                <artifactId>api</artifactId>
+                <version>0.31.1</version>
+            </dependency>
+            <!-- https://mvnrepository.com/artifact/ai.djl/model-zoo -->
+            <dependency>
+                <groupId>ai.djl</groupId>
+                <artifactId>model-zoo</artifactId>
+                <version>0.31.1</version>
+            </dependency>
+
+            <!--            <dependency>-->
+<!--                <groupId>ai.djl.llama</groupId>-->
+<!--                <artifactId>llama</artifactId>-->
+<!--                <version>0.28.0</version>-->
+<!--            </dependency>-->
+
             <!-- ========================= -->
             <!-- ======== Testing ======== -->
             <!-- ========================= -->
-
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
