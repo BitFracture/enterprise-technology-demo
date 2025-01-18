@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+#dynamic = ["version"]
+version = "0.1.0"
+name = "llm-service-backend"
+dependencies = [
+#    "keras_hub"
+  "ollama>=0.4.5"
+#  "httpx",
+#  "gidgethub[httpx]>4.0.0",
+#  "django>2.1; os_name != 'nt'",
+#  "django>2.0; os_name == 'nt'",
+]
+requires-python = ">= 3.13"
+description = "LLM Backend for Enterprise Technology Demo"
+
+[project.scripts]
+llm-service = "llm_service_backend.main:main"
